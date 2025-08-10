@@ -10,7 +10,7 @@ export interface FormField {
     };
     dependencies?: Array<{
       key: string;
-      equals?: any;
+      equals?: boolean;
       notEmpty?: boolean;
     }>;
     fields?: FormField[];
@@ -29,5 +29,6 @@ export interface FormField {
   }
   
   export interface FormData {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     [key: string]: any;
   }

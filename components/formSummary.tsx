@@ -12,6 +12,7 @@ interface FormSummaryProps {
 }
 
 export function FormSummary({ formData }: FormSummaryProps) {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const formatValue = (key: string, value: any): string => {
     if (value === null || value === undefined || value === '') {
       return 'Not specified';
@@ -47,6 +48,7 @@ export function FormSummary({ formData }: FormSummaryProps) {
       acc.general[key] = value;
     }
     return acc;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
   }, {} as Record<string, any>);
 
   return (
