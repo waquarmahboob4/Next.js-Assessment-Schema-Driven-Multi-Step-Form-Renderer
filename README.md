@@ -47,7 +47,7 @@ This project shows how to generate dynamic, validated forms entirely from a JSON
 3. **Run the Development Server**
 
    ```bash
-   pnpm dev
+   pnpm run dev
    ```
 
    Then open: **[http://localhost:3000](http://localhost:3000)**
