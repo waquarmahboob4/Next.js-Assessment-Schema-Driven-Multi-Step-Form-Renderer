@@ -52,3 +52,14 @@ This project shows how to generate dynamic, validated forms entirely from a JSON
 
    Then open: **[http://localhost:3000](http://localhost:3000)**
 
+---
+
+## 🌐 Live Demo
+
+The project is deployed on Vercel:
+
+**Live site:** [https://next-js-assessment-schema-driven-mu.vercel.app/](https://next-js-assessment-schema-driven-mu.vercel.app/)
+
+---
+
+© 2025 Waquar Mahboob
